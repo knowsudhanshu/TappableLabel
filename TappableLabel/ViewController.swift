@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         
         let privacyText = "Privacy Policy"
         let termsText = "Terms of Use"
-        let agreementText = "I agree to \(privacyText) and \(termsText) of Longwalks"
+        let agreementText = "I agree to \(privacyText) and \(termsText) of Sudhansh Inc."
         let attributedString = NSMutableAttributedString(string: agreementText, attributes: [
             .font: UIFont.systemFont(ofSize: 18, weight: .medium),
             .foregroundColor: UIColor.black,
